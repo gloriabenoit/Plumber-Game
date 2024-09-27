@@ -1,19 +1,22 @@
-# Jeu du Plombier (M1BI - 2024)
-Ce projet est la production du cours de Programmation avancée de mon M1 à Université Paris Cité, organisé par M. Vincent Padovani. Ce projet visait à écrire en `java`, à l'aide de la librairie `swing`, une application permettant de jouer au jeu du plombier uniquement en utilisant la souris.
+# Plumber game with user interface
+January 2024 (M1 BI)
 
-## Installation
+## Introduction
 
-Aucune installation externe est nécessaire, il suffit de récupérer le répertoire. Le jeu commence en lançant `MainMenu.java`.
+This project aims to write a java application, using the swing library, that allows you to
+play the game **Plumber**. The game has a graphical interface, meaning it can be played using only a mouse.
 
-## Principe
+The goal is to link a series of pipes in such a way that they are all connected to each other, without any of them being open to the outside of the board.
+The central pipe is red, indicating that the water flow passes through it. You have to turn the pipes until they're all red. The game contains a dozen levels of increasing difficulty.
 
-Le but du jeu est de relier une série de tuyau de manière à ce qu’ils soient tous connectés entre eux, sans qu’aucun ne soit ouvert sur la bordure du plateau. Le tuyau central est en rouge, indiquant que le courant d'eau y passe. Il faut donc tourner les tuyaux jusqu'à ce qu'ils soient tous rouge. 
-Le jeu contient une douzaine de niveaux, de difficulté croissante. 
+## Setup
 
-Chaque niveau possède quatre boutons:
-- *Menu* permet de revenir à l'accueil.
-- *Retour arrière* permet d'annuler tous les coups effectués. Le bouton est grisé si l'historique de coup est vide.
-- *Solution* affiche la solution. Cela ne permet néanmoins pas de passer au niveau suivant, il faut revenir au menu principal pour cela.
-- *Redémarrage* randomise toutes les cases de la grille. Cela réinitialise aussi l'historique des coups.
+To install the algorithm and its dependencies, you need to perform the following steps:
 
-Lors d'une partie, un score est retenu selon le nombre de niveaux réussis à la suite.
+### Clone the repository
+
+```bash
+git clone https://github.com/gloriabenoit/Plumber-Game.git
+
+cd Plumber-Game
+```
