@@ -61,7 +61,7 @@ public class Board extends JPanel implements MouseListener {
 		this.score = score;
 
 		// Récupération des sprites
-		getSprites("pipes.png", 3, 5, 120, 20);
+		getSprites("../img/pipes.png", 3, 5, 120, 20);
 
 		// Réglage des dimensions du panneau
 		this.setPreferredSize(new Dimension(width, height));

@@ -145,8 +145,8 @@ public class MainMenu extends JPanel {
 	// *** MAIN ***
 	public static void main(String[] args) {
 		// fichiers de niveaux
-		String[] niveaux = {"grille-1.txt", "grille0.txt", "pipe5.p", "pipe9.p", "pipe2.p", "pipe1.p", "pipe4.p",
-				"pipe7.p", "pipe8.p", "pipe3.p", "pipe6.p", "pipe0.p"};
+		String[] niveaux = {"../data/grille-1.txt", "../data/grille0.txt", "../data/pipe5.p", "../data/pipe9.p", "../data/pipe2.p", "../data/pipe1.p", "../data/pipe4.p",
+				"../data/pipe7.p", "../data/pipe8.p", "../data/pipe3.p", "../data/pipe6.p", "../data/pipe0.p"};
 		runMenu(niveaux);
 
 	}
